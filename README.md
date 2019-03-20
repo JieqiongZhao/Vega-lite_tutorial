@@ -20,7 +20,9 @@ https://vega.github.io/vega-lite/examples/
 
 Original webpage: https://archive.ics.uci.edu/ml/datasets/auto+mpg
 
-CSV file: https://vega.github.io/vega-lite/data/cars.json
+CSV file: http://pixel.ecn.purdue.edu:8080/~zhao413/car_mpg.csv
+
+Json file: https://vega.github.io/vega-lite/data/cars.json
 
 #### Description of variables:
 
