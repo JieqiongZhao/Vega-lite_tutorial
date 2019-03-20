@@ -56,10 +56,13 @@ Color the data points with their origins.
 [View this example in the online editor](https://vega.github.io/editor/#/url/vega-lite/N4KABGBEAkDODGALApgWwIaQFxUQFzwAdYsB6UgN2QHN0A6agSz0QFcAjOxge1IRQyUa6ALQAbZskoBmOgCtY3AHaQANOCgATdHkw5QECJFYAnMdi070peOhOx5ilRoC+6oxhMBrC5ELdGJTw1DUhkJXhuTUDqCwNDSAAPOI1DKAAzRmQxTV8AWUYxZFgAfUJkExKAcXQxMWUQtKM8AE9y3wBHVnQg5h1GKkhUsDdhyBaUpoysnN8ACW57ZH8AdwrGpshW9pxILp68PsPB4dG0yEj6k0nNzOzc3YB5E0YmZzSXVxAXIA)
 
 To avoid overlap, filter data samples by their origins.
+
 ![](http://pixel.ecn.purdue.edu:8080/~zhao413/auto_mpg_filter.png)
+
 [View this example in the online editor](https://vega.github.io/editor/#/url/vega-lite/N4KABGBEAkDODGALApgWwIaQFxUQFzwAdYsB6UgN2QHN0A6agSz0QFcAjOxge1IRQyUa6ALQAbZskoBmOgCtY3AHaQANOCgATdHkw5QECJFYAnMdi070peOhOx5ilRoC+6oxhMBrC5ELdGJTw1DUg8E3QlWAAzbhNUCwBtYEhoxjE8ZBNfbTxWVDoAeRNGJiUAXkqAcgApdEJIqrAAH2awXPyikrLK8qqAUVNuQmQqyBcAXXcoZCV4bk1A6gsDQ0gADxWNQyg05DFNXwBZdORYAH0Rk3OAcXQxMWUQnaM8AE8R3wBHVki8Zh0jCokG2YDcoMgby2L12jH2hxwkAAEnFYMh-AB3LLPF5hD7Ib6-IIA-7A0HgnaQeaPbL6UFGPYHXzFUqBEE7FyuEAuIA)
 
 More sophisticated interactive explore of scatterplot matrix:
+
 https://vega.github.io/vega-lite/examples/interactive_splom.html
 
 
