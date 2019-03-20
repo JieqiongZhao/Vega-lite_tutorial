@@ -51,6 +51,7 @@ CSV file: https://vega.github.io/vega-lite/data/cars.json
 One example with mpg, please try with other data columns
 
 ![](http://pixel.ecn.purdue.edu:8080/~zhao413/auto_mpg_hist_mpg.png)
+
 [View this example in the online editor](https://vega.github.io/editor/#/url/vega-lite/N4KABGBEAkDODGALApgWwIaQFxUQFzwAdYsB6UgN2QHN0A6agSz0QFcAjOxge1IRQyUa6ALQAbZskoBmOgCtY3AHaQANOCgATdHkw5QECJFYAnMdi070peOhOx5ilRoC+6oxhMBrC5HZ21DUhkJXhuTUYlagsDQ0gADxiNQyh2SIs8E1ZkdxSoADNGZDFNXwBZRjFkWAB9QmQTGoBxdDExZUC8qDwAT3rfAEdWdCU8Zh1GKkhksDcZyB6krsh0amoTYTxkXzDWUc68yF7+nEghkbHdMamZl1cQFyA)
 
 ### Two data columns (a pair of features)
@@ -58,6 +59,7 @@ One example with mpg, please try with other data columns
 Explore the correlation between two features.
 
 ![](http://pixel.ecn.purdue.edu:8080/~zhao413/auto_mpg_scatterplot_mpg_horsepower.png)
+
 [View this example in the online editor](https://vega.github.io/editor/#/url/vega-lite/N4KABGBEAkDODGALApgWwIaQFxUQFzwAdYsB6UgN2QHN0A6agSz0QFcAjOxge1IRQyUa6ALQAbZskoBmOgCtY3AHaQANOCgATdHkw5QECJFYAnMdi070peOhOx5ilRoC+6oxhMBrC5ELdGJTw1DUhkJXhuTUDqCwNDSAAPOI1DKAAzRmQxTV8AWUYxZFgAfUJkExKAcXQxMWUQtKM8AE9y3wBHVnQg5h1GKkhUsDdhyBaUpoysnN8ACW57ZH8AdwrGpshW9pxILp68PsPB4ZdXEBcgA)
 
 Color the data points with their origins.
