@@ -1,15 +1,25 @@
 ## 1. Online Interactive Visualization Tool
+
 ### Vega-Lite online editing website
+
 https://vega.github.io/editor/#/edited
+
 Editing the visualization online with instant feedback
+
 #### Tutorial Website
+
 https://vega.github.io/vega-lite/tutorials/getting_started.html
+
 #### Example Gallery
+
 https://vega.github.io/vega-lite/examples/
 
 ## 2. Data Set
+
 ### Auto MPG Data Set
+
 Original webpage: https://archive.ics.uci.edu/ml/datasets/auto+mpg
+
 CSV file: https://vega.github.io/vega-lite/data/cars.json
 
 #### Description of variables:
@@ -36,14 +46,15 @@ CSV file: https://vega.github.io/vega-lite/data/cars.json
 
 ### Single data column (one feature)
 
-#### histogram
+#### Histogram
+
 One example with mpg, please try with other data columns
 
 ![](http://pixel.ecn.purdue.edu:8080/~zhao413/auto_mpg_hist_mpg.png)
 [View this example in the online editor](https://vega.github.io/editor/#/url/vega-lite/N4KABGBEAkDODGALApgWwIaQFxUQFzwAdYsB6UgN2QHN0A6agSz0QFcAjOxge1IRQyUa6ALQAbZskoBmOgCtY3AHaQANOCgATdHkw5QECJFYAnMdi070peOhOx5ilRoC+6oxhMBrC5HZ21DUhkJXhuTUYlagsDQ0gADxiNQyh2SIs8E1ZkdxSoADNGZDFNXwBZRjFkWAB9QmQTGoBxdDExZUC8qDwAT3rfAEdWdCU8Zh1GKkhksDcZyB6krsh0amoTYTxkXzDWUc68yF7+nEghkbHdMamZl1cQFyA)
 
 ### Two data columns (a pair of features)
-#### scatterplot
+#### Scatterplot
 Explore the correlation between two features.
 
 ![](http://pixel.ecn.purdue.edu:8080/~zhao413/auto_mpg_scatterplot_mpg_horsepower.png)
@@ -54,6 +65,18 @@ Color the data points with their origins.
 ![](http://pixel.ecn.purdue.edu:8080/~zhao413/auto_mpg_color_origin.png)
 
 [View this example in the online editor](https://vega.github.io/editor/#/url/vega-lite/N4KABGBEAkDODGALApgWwIaQFxUQFzwAdYsB6UgN2QHN0A6agSz0QFcAjOxge1IRQyUa6ALQAbZskoBmOgCtY3AHaQANOCgATdHkw5QECJFYAnMdi070peOhOx5ilRoC+6oxhMBrC5ELdGJTw1DUhkJXhuTUDqCwNDSAAPOI1DKAAzRmQxTV8AWUYxZFgAfUJkExKAcXQxMWUQtKM8AE9y3wBHVnQg5h1GKkhUsDdhyBaUpoysnN8ACW57ZH8AdwrGpshW9pxILp68PsPB4dG0yEj6k0nNzOzc3YB5E0YmZzSXVxAXIA)
+
+#### Some easy visual encoding variables to test with:
+
+Mark: "line", "point", "bar", ...
+
+Type: "temporal", "quantitative", "ordinal", ...
+
+"transform": [{"filter": "datum.Origin==='Japan' || datum.Origin==='Europe'"}],
+
+"shape": {"field": "Origin", "type": "nomimal"},
+
+"color": {"field": "Origin"},
 
 To avoid overlap, filter data samples by their origins.
 
